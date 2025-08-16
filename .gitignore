@@ -119,14 +119,12 @@ dmypy.json
 .pyre/
 
 # Data files (exclude datasets)
-data/raw/
+
 data/raw/*
 *.json
 !data/evaluation/generated_tasks.json
 
 # Generated output files
-data/processed/
-data/visualized/
 *.gexf
 *.png
 *.pdf
