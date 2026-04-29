@@ -62,7 +62,7 @@ def graph_aware_cover_steiner(G, author_skills, T):
     # SteinerTree
     team = steiner_tree_nodes(G, X0) 
     
-    # Communication cost
+
     subgraph = G.subgraph(team)
     is_connected = nx.is_connected(subgraph)
     mst_cost = 0
